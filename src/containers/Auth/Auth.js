@@ -95,7 +95,7 @@ class Auth extends Component {
     if(!this.props.buildingBurger && this.props.authRedirectPath !== '/'){
       this.props.onSetAuthRedirectPath()
     }
-  }
+  } 
 
   render() {
     const formElementsArray = [];
